@@ -1,0 +1,57 @@
+.projects {
+  padding: 12px;
+  border-bottom: 1px solid gray;
+  .h3 {
+    text-align: center;
+    width: 100%;
+    color: rgb(78, 230, 197);
+    p {
+      font-size: 0.9rem;
+      letter-spacing: 1.5px;
+      
+    }
+  }
+  .pbox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .pcard {
+        padding-bottom: 10px;
+        border-radius: 10px;
+        color: rgb(218, 218, 218);
+      width: 40vmin;
+      max-width: 350px;
+background: rgba(36, 255, 240, 0.056);
+      margin: 5px;
+      overflow: hidden;
+      img {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      h4 {
+        font-size: 1.4rem;
+        color: rgb(238, 224, 207);
+        padding: 0px 10px;
+
+      }
+      h6 {
+        font-size: 0.8rem;
+        color: rgb(15, 214, 224);
+        padding: 0px 10px;
+margin-bottom: 12px;
+      }
+      p {
+        padding: 0px 10px;
+font-size: .8em;
+      }
+      a {
+    margin:10px;
+background: linear-gradient(to right, rgba(0, 160, 104, 0.499) , rgba(0, 104, 148, 0.499));
+padding:5px 10px;
+color: white;
+text-decoration: none;
+border-radius: 3px;
+      }
+    }
+  }
+}

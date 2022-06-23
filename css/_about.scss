@@ -1,0 +1,120 @@
+.about{
+    margin: 20px 0px;
+    border-bottom: 0.5px solid rgb(110, 110, 110);
+    padding-bottom: 50px;
+    .title{
+        text-align: center;
+        color: rgb(43, 205, 167);
+
+font-weight: 500;
+letter-spacing: 2px;
+width: max-content;
+margin:20px auto;
+    }
+    .box{
+        display: flex;
+        position: relative;
+        .aimage{
+            padding: 10px;
+            width: 50%;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-right: 1px solid rgb(0, 78, 71);
+            .box{
+                display: flex;
+                flex-direction: column;
+                width: 60%;
+                
+                img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 50%;
+                }
+                .socialbox{
+                    display: flex;
+                    justify-content: center;
+                    padding: 5px;
+                    width: 100%;
+                    height: 100%;
+
+.sbox{
+    display: flex;
+    justify-content: center;
+width: 100%;
+position: relative;
+a{    
+        position: absolute;
+        color: rgb(76, 255, 252);
+  
+     ion-icon{
+
+          font-size: 1.8rem;
+    }
+}
+   
+}
+.fb{
+    top: -10px;
+}
+.git{
+    top: 5px;
+}
+.insta{
+    top: -10px;
+}
+                }
+            }
+            p{
+              color: rgb(0, 0, 0);
+              letter-spacing: 1px;
+              font-size: 1rem;
+              border-radius: 5px;
+              margin-top: 50px;
+              padding: 5px;
+              background: rgb(20, 162, 162);
+            }
+        }
+       .ainfo{
+        padding: 10px;
+        width: 50%;
+        color: rgb(240, 240, 240);
+        h2{
+font-size: 1.3rem;
+position: relative;
+&::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(to right, rgb(0, 255, 128), rgb(0, 132, 255));
+    top: 28px;
+}
+        }
+        p{
+font-size: 0.7rem;
+letter-spacing: 0.5px;
+line-height: 20px;
+margin-top: 20px;
+        }
+        .skills{
+            color: rgb(220, 220, 220);
+            h2{
+font-size: 1.3rem;
+color: rgb(255, 255, 255);
+            }
+            h4{
+                font-size: 0.7rem;
+                font-weight: 600;
+                margin: -15px 0px;
+                letter-spacing: 1px;
+                color: rgb(0, 190, 211);
+            }
+            p{}
+        }
+       } 
+    }
+
+}

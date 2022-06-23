@@ -1,0 +1,191 @@
+@media only screen and (max-width: 700px) {
+  .header {
+    border-radius: 10px;
+    margin-top: 10px;
+    header {
+      .logo {
+      }
+      nav {
+        transition: 0.4s;
+        top: -350px;
+        left: 10px;
+        position: absolute;
+        display: flex;
+        background: rgb(103, 255, 237);
+        flex-direction: column;
+        border-radius: 10px;
+        ul {
+          position: relative;
+          display: none;
+          background: rgb(5, 20, 21);
+          padding: 20px;
+          li {
+            margin: 30px 20px;
+          }
+        }
+      }
+      .toggle_btn {
+        margin-top: 10px;
+        display: block;
+        top: 102px;
+      }
+      .close {
+        display: none;
+      }
+    }
+  }
+  // -----------------home--------------
+  .home {
+    background: rgba(255, 255, 255, 0.051);
+    padding: 20px;
+    border-radius: 10px;
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-top: 10px;
+    .hinfo {
+      padding: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      .exp_pro {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+    }
+    .himage {
+      width: 50%;
+      .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &::before {
+          position: absolute;
+          content: "";
+          width: 80%;
+          height: 80%;
+          top: 10%;
+          left: 10%;
+          background: linear-gradient(
+            to right,
+            rgba(32, 110, 255, 0),
+            rgba(0, 250, 183, 0)
+          );
+          border-radius: 50%;
+        }
+        .img2 {
+          display: block;
+          width: 70%;
+          min-width: 100px;
+          border-radius: 50%;
+        }
+        .img1 {
+          display: none;
+        }
+      }
+    }
+  }
+// -----------------------about--------------------
+.about{
+    background: rgba(0, 106, 255, 0.055);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0px;
+        .box{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            .aimage{
+                padding: 10px;
+                width: 100%;
+                align-items: center;
+                border: none;
+                .box{
+                    display: flex;
+                    flex-direction: column;
+                    width:60%;
+                    margin: auto;
+                    img{
+ 
+                    }
+                    .socialbox{
+
+    .fb{
+        top: -10px;
+    }
+    .git{
+        top: 5px;
+    }
+    .insta{
+        top: -10px;
+    }
+                    }
+                }
+            }
+           .ainfo{
+margin-top: 50px;
+            width: 100%;
+           } 
+        }
+    
+    }
+
+.service{
+  background: rgba(255, 214, 29, 0.075);
+  border-radius: 10px;
+}
+.projects{
+  background: rgba(255, 0, 174, 0.054);
+  border-radius: 10px;
+}
+}
+
+
+    @media only screen and (max-width: 595px) {
+      .service{
+      
+      .sbox {
+      
+          .serbox {
+            width: 90vmin;
+          }
+        }
+      }
+      
+      .projects {
+        padding: 12px;
+        .h3 {
+          text-align: center;
+          width: 100%;
+          color: aliceblue;
+          p {
+            font-size: 0.9rem;
+            letter-spacing: 1.5px;
+          }
+        }
+        .pbox {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          .pcard {
+            width: 90vmin;
+            max-width: 350px;
+            margin: 5px;
+            img {
+              width: 100%;
+            }
+            h4 {
+            }
+            h6 {
+            }
+            p {
+            }
+            a {
+            }
+          }
+        }
+      }
+      
+    }
